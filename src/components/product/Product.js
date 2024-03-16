@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Product ({product, col}) {
     return (
-        <div id='card2' className={`col-sm-12 col-md-6 col-lg-${col} my-3`}>
+        <div id='card2' className={`col-sm-12 col-md-6 col-lg-4 my-3`}>
             <div id='card1' className="card p-3 rounded">
                 {product.images.length > 0 &&
                 <img
